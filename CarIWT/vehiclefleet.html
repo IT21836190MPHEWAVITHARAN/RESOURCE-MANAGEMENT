@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Vehicle Fleet</title>
+        <link rel="stylesheet" href="CSS/homestyle.css">
+        <script src="js/vehiclefleetscript.js"></script>
+    </head>
+    <body>
+    <table class="tbl1">
+        <tr>
+          <th><img class="im1" src="images/logo.png" alt="Logo" height="200" width="200"></th>
+          <th class="th1">Car Rental Service</th>
+          <th>
+            <ul style="text-align:center; background:transparent">
+              <li><a href="#"><img style="text-align: center;" src="images/userlogo.png" alt="User account photo" width="60px" height="60px"></a></li>
+              <li><div class="dropdown">
+                    <button class="btn1" >Sign up / Login</button>
+                    <div class="dropdown-content">
+                      <a href="#">Sign in</a>
+                      <a href="#">Login</a>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </th>
+        </tr>
+    </table>
+    
+    <!--Navigation bar-->
+        <ul>  
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a class="active" href="vehiclefleet">Vehicle fleet</a></li>
+            <li><a href="contact">Contact</a></li>
+      </ul>
+
+      <!--vehicle choose button-->
+      <h2 style="color:aliceblue">choose your Vehicle Type:</h2>
+      <div class="layout">
+        <button type="button" name="car" id="packages" onclick="loadCar()">Cars</button>
+        <button type="button" name="Van" id="packages" onclick="loadVan()">Vans</button>
+        <button type="button" name="lorry" id="packages" onclick="loadLorry()">Lorry</button>
+        <button type="button" name="Bikes" id="packages" onclick="loadbike()">bikes</button>
+        <button type="button" name="Vip" id="packages" onclick="loadVIP()">VIP Vehicles</button>
+      </div>
+
+      
+
+      <div class="box">
+        <img class="vehicleimage" id="vehi" src="images/logo.png" >
+      </div>
+        <br>
+        <p id="details">select your vehicles</p>
+      
+
+
+    </body>
+
+    <hr>
+    <footer style="background-color:rgb(121, 16, 16); height:100px; text-align: center;color: rgb(243, 234, 234);" >
+    <p> privacy police| Accessibility <br> </p>
+    </footer>
+</html>

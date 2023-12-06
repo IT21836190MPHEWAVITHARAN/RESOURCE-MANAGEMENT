@@ -1,0 +1,48 @@
+body {
+    margin:0;
+	padding: 0;
+    background-color:rgb(6, 80, 129);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table.tbl1{
+    width:100%;
+}
+
+
+.im1{
+    float:left;
+}
+
+.th1{
+    font-size: 75px;
+    font-family: verdana;
+}
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;  
+}
+
+
+
+hr.line1{
+    border:2px solid rgb(67, 65, 65);
+    text-align: center;
+}
+
+.btn1{
+    margin:8px 4px 4px 4px;
+	width:150;
+	height:30px;
+	background-color:rgb(239, 86, 44);
+    font-size: auto;
+	font-weight:bold;
+    cursor: pointer;
+}
+
+
+
